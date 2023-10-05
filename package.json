@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "jasmine": "^5.1.0"
+  },
+  "scripts": {
+    "test": "jasmine"
+  },
+  "dependencies": {
+    "gitinit": "^1.0.1",
+    "node": "^20.7.0"
+  },
+  
+    "type": "module"
+  
+}
