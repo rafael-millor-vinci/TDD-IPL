@@ -17,4 +17,14 @@ describe("A suite of test for the fonction of main class", function () {
 
     expect(result).toBe("fizz");
   });
+  it("fizzbuzz function should return 4 wehn given 4", function () {
+    let result = main.fizzByzz(4);
+
+    expect(result).toBe(4);
+  });
+  it("fizzbuzz function should return buzz wehn given 5", function () {
+    let result = main.fizzByzz(5);
+
+    expect(result).toBe("buzz");
+  });
 });
